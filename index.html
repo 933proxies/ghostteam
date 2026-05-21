@@ -684,16 +684,17 @@
         /* Services Grid */
         .services-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-            gap: 2rem;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 1.75rem;
             margin-top: 2rem;
+            align-items: stretch;
         }
 
         .service-card {
             background: linear-gradient(135deg, var(--surface) 0%, var(--surface-light) 100%);
             border: 1px solid rgba(100, 255, 218, 0.15);
             border-radius: 12px;
-            padding: 2rem;
+            padding: 1.8rem;
             transition: var(--transition);
             opacity: 0;
             transform: translateY(20px);
